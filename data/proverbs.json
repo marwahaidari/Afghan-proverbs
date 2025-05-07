@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "textDari": "آب که یک‌جا بماند، می‌گندد",
+    "textPashto": "اوبه چې ودرېږي، خوسا کېږي",
+    "translationEn": "Still water becomes stagnant",
+    "meaning": "Things must keep moving or they spoil.",
+    "category": "wisdom"
+  },
+  {
+    "id": 2,
+    "textDari": "نیکی کن و در دجله انداز",
+    "textPashto": "ښه وکړه او سیند ته یې واچوه",
+    "translationEn": "Do good and throw it into the river",
+    "meaning": "Do good deeds without expecting reward.",
+    "category": "advice"
+  },
+  {
+    "id": 3,
+    "textDari": "آهسته برو، همیشه برو",
+    "textPashto": "په کراره لاړ شه، خو تل لاړ شه",
+    "translationEn": "Go slowly, but go always",
+    "meaning": "Consistency is better than speed.",
+    "category": "wisdom"
+  },
+  {
+    "id": 4,
+    "textDari": "پایان شب سیه، سپید است",
+    "textPashto": "د تورې شپې پای، روڼ سهار وي",
+    "translationEn": "The end of a dark night is bright",
+    "meaning": "Hard times will pass eventually.",
+    "category": "hope"
+  },
+  {
+    "id": 5,
+    "textDari": "هر که طاووس خواهد، جور هندوستان کشد",
+    "textPashto": "چا ته چې طاووس خوښ وي، د هند سفر به کوي",
+    "translationEn": "He who wants a peacock must endure the trip to India",
+    "meaning": "You must suffer to achieve beauty or success.",
+    "category": "wisdom"
+  },
+  {
+    "id": 6,
+    "textDari": "چاه کن همیشه تهی نمی‌ماند",
+    "textPashto": "څاه کونکی به خامخا پکې ولویږي",
+    "translationEn": "He who digs a pit will eventually fall in it",
+    "meaning": "Harming others will come back to you.",
+    "category": "karma"
+  },
+  {
+    "id": 7,
+    "textDari": "از تو حرکت، از خدا برکت",
+    "textPashto": "ته خوښی وکړه، خدا به برکت درکړي",
+    "translationEn": "You make the move, God gives the blessing",
+    "meaning": "Effort is necessary to receive blessings.",
+    "category": "advice"
+  },
+  {
+    "id": 8,
+    "textDari": "با یک گل بهار نمی‌شود",
+    "textPashto": "یوه ګل نه پسرلی نه کېږي",
+    "translationEn": "One flower doesn’t make a spring",
+    "meaning": "One effort alone is not enough.",
+    "category": "wisdom"
+  },
+  {
+    "id": 9,
+    "textDari": "سیلی نقد به از حلوای نسیه",
+    "textPashto": "نقده څپېړه د پور حلوا نه ښه ده",
+    "translationEn": "A slap now is better than a sweet later",
+    "meaning": "Something certain now is better than a promise for later.",
+    "category": "advice"
+  },
+  {
+    "id": 10,
+    "textDari": "هر که بام‌اش بیش، برف‌اش بیشتر",
+    "textPashto": "چا چې بام لوړ وي، واوره به هم ډېره پرې وي",
+    "translationEn": "The higher the roof, the heavier the snow",
+    "meaning": "With greater possessions or status comes greater responsibility or trouble.",
+    "category": "wisdom"
+  }
+]

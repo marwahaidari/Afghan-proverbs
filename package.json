@@ -1,0 +1,17 @@
+{
+  "name": "afghan-proverbs-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for Afghan Proverbs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Your Name",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
