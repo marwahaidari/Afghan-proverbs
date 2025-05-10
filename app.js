@@ -5,7 +5,7 @@ const proverbsRoutes = require('./route/proverbs');
 app.use(express.json());
 app.use('/proverbs', proverbsRoutes);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`server is runing on http://localhost:${PORT}`)
 }) 
