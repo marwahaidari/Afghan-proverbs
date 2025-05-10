@@ -28,4 +28,39 @@ A RESTful API to manage traditional Afghan proverbs and sayings in Dari, Pashto,
 ```bash
 git clone https://github.com/your-username/afghan-proverbs-api.git
 cd afghan-proverbs-api
+
+
+## running the server
+node app.js
+
+
+## Get all proverbs
+GET /proverbs
+
+
+## Optional filter by category
+GET /proverbs?category=wisdom
+
+
+### GET a proverb by id
+GET /proverbs/:id
+
+
+### Add a new proverb
+POST /proverbscontent-type: application/json
+{
+"textDari":"Enter the dari text",
+"textPashto":"Enter the pashto text",
+"translationEn":"Enter the En text",
+"meaning":"Things must keep moving or they spoil.",
+"category":"wisdom"
+}
+
+
+### Update a proverb
+PUT /proverbs/:id
+
+
+### Delete a proverb
+DELETE /proverbs/:id
 npm install
