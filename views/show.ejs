@@ -1,0 +1,22 @@
+<h1>Proverb Details</h1>>
+
+<p><strong>Dari:</strong>
+    <%= proverb.textDari %>
+</p>
+<p><strong>Pashto:</strong>
+    <%= proverb.textPashto %>
+</p>
+<p><strong>English:</strong>
+    <%= proverb.translationEn %>
+</p>
+<p><strong>Meaning:</strong>
+    <%= proverb.meaning %>
+</p>
+<p><strong>Category:</strong>
+    <%= proverb.category %>
+</p>
+<a href="/edit/<%= proverb.id %>">Edit</a>
+<form action="/delete/<%= proverb.id %>?.method+DELETE" method="POST" style="display: inline;">
+    <button type="submit" onclick="return confirm('Are You Sure?')">delete</button>
+</form> <br><br>
+<a href="/">Back to Home</a>

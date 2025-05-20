@@ -1,0 +1,16 @@
+<h1>Random Proverb</h1>
+<% if(proverb){ %>
+    <p><strong>Dari:</strong>
+        <%= proverb.textDari %>
+    </p>
+    <p><strong>Pashto:</strong>
+        <%= proverb.textPashto %>
+    </p>
+    <p><strong>English:</strong>
+        <%= proverb.translationEn %>
+    </p>
+    <p><strong>Category:</strong>
+        <%= proverb.category %>
+    </p>
+    <% } %>
+        <a href="/random">Get Another</a>| <a href="/">Back to Home</a>

@@ -1,11 +1,22 @@
 const express = require('express');
+const path = require('path');
 const app = express();
-const proverbsRoutes = require('./route/proverbs');
+
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.json());
-app.use('/proverbs', proverbsRoutes);
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
-const PORT = 3000;
+const proverbsRoutes = require('./routes/proverbs');
+const pageRoutes = require('./routes/pages');
+
+// توجه: حتما مسیر صفحه ها (render) را قبل از api بگذارید
+app.use('/', pageRoutes);
+app.use('/api/proverbs', proverbsRoutes);
+
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-    console.log(`server is runing on http://localhost:${PORT}`)
-}) 
+    console.log(`✅ Server running at http://localhost:${PORT}`);
+});

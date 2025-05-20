@@ -17,6 +17,7 @@ function getAllProverbs(req, res) {
 
         res.json(proverbs);
     });
+
 }
 
 // GET single proverb by ID
@@ -103,12 +104,24 @@ function deleteProverb(req, res) {
             res.json({ message: 'Proverb deleted successfully.', deleted });
         });
     });
+} function getRandomProverb(req, res) {
+    fs.readFile(dataPath, 'utf8', (err, data) => {
+        if (err) return
+        res.status(500).json({ message: "Error reading data." });
+
+        const proverbs = JSON.parse(data);
+        const randomIndex = Math.floor(Math.random() * proverbs.length);
+        res.json(proverbs[randomIndex])
+    })
 }
+
+
 
 module.exports = {
     getAllProverbs,
     getProverbById,
     addProverb,
     updateProverb,
-    deleteProverb
+    deleteProverb,
+    getRandomProverb
 };

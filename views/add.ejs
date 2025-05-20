@@ -1,0 +1,18 @@
+<h1>Edit Proverb</h1>
+
+<form action="/edit/<%= proverb.id %>" method="POST">
+    <label>Dari:</label>
+    <input type="text" name="textDari" value="<%= proverb.textDari %>" required><br>
+
+    <label>Pashto:</label>
+    <input type="text" name="textPashto" value="<%= proverb.textPashto %>" required><br>
+    <label>English Translation:</label>
+    <input type="text" name="translationEn" value="<%= proverb.translationEn %>" required><br>
+    <label>Meaning:</label>
+    <input type="text" name="meaning" value="<%= proverb.meaning %>" required><br>
+    <label>Category:</label>
+    <input type="text" name="category" value="<%= proverb.category %>" required><br>
+    <button type="submit">Upload</button>
+</form>
+
+<a href="/">Back</a>

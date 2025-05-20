@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Afghan Proverbs</title>
+</head>
+
+<body>
+    <h1>Afghan Proverbs</h1>
+    <ul>
+        <% proverbs.forEach(proverb=> { %>
+            <li>
+                <strong>Dari:</strong>
+                <%= proverb.textDari %><br>
+                    <strong>Pashto:</strong>
+                    <%= proverb.textPashto %><br>
+                        <strong>English:</strong>
+                        <%= proverb.translationEn %>
+            </li>
+            <hr>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
